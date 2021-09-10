@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>
+  <title>GreenPrint</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../assets/images/graphics/leaf.png">
+  <link rel="stylesheet" type="text/css" href="../assets/styles/eco_estate.css">
+  <script type="text/javascript" src="../assets/js/main.js"></script>
+  <script type="text/javascript" src="../assets/js/houses.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header" id="navbar">
+    <a href="index.html"><img src="../assets/images/graphics/logoo.png" alt="GreenPrint Logo" height="75" width="300"></a>
+    <div class="nb home">
+      <a href="index.html" id="nav-home">Home</a>
+      <div class="hover-home">
+      </div>
+    </div>
+    <div class="nb components">
+      <a href="components.html" id="nav-comp">Components</a>
+      <div class="hover hover-comp">
+        <div class="ch energy">
+          <p class="hover-margin">Energy</p>
+          <div class="chh hover-energy" style="float: right;">
+            <a href="solar.html">Solar Panels</a>
+            <a href="thermal.html">Thermal Panels</a>
+            <a href="wind_turb.html">Wind Turbines</a>
+          </div>
+        </div>
+        <div class="ch hvac">
+          <p>HVAC</p>
+          <div class="chh hover-hvac">
+            <a href="geothermal_pumps.html">Geothermal Pumps</a>
+            <a href="ice.html">Ice Powered AC</a>
+            <a href="insulation.html">Insulation</a>
+          </div>
+        </div>
+        <div class="ch food">
+          <p class="hover-margin2">Food/Water</p>
+          <div class="chh hover-food">
+            <a href="greenhouse.html">Greenhouse</a>
+            <a href="rain.html">Irrigation Systems</a>
+            <a href="grocery.html">Grocery Delivery</a>
+          </div>
+        </div>
+        <div class="ch transp">
+          <p class="hover-margin2">Transportation</p>
+          <div class="chh hover-transp">
+            <a href="car.html">Electric Car</a>
+            <a href="bike.html">Bicycle</a>
+            <a href="public.html">Public Transportation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nb packages">
+      <a href="packages.html" id="nav-pack">Houses</a>
+      <div class="hover hover-pack">
+        <a href="classic_suburban.html">Classic Suburban</a>
+        <a href="rural_dwelling.html">Rural Dwelling</a>
+        <a href="eco_friendly_estate.html">Eco Friendly Estate</a>
+        <a href="earthship_bioshelter.html">Earthship Bioshelter</a>
+      </div>
+    </div>
+    <div class="nb contact">
+      <a href="contact.html" id="nav-contact">Contact Us</a>
+      <div class="hover hover-cont">
+      </div>
+    </div>
+  </div>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "100px";
+  } else {
+    document.getElementById("navbar").style.top = "-80px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<div id="top-scroll">&nbsp;</div>
+<style>
+  #top-scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+</style>
+  <div class="title">
+    <h1 class="center">Eco-Friendly Estate</h1>
+    <hr class="und">
+  </div>
+  <div class="house-grid">
+    <div class="hg greenhouse" onclick="greenLink()">
+      <div class="hover-green">
+        <img  class="card-img" src="../assets/images/house/!interactive/greenhouse-card.png">
+      </div>
+    </div>
+    <div class="hg car" onclick="carLink()">
+      <div class="hover-car">
+        <img src="../assets/images/house/!interactive/electric-car-card.png">
+      </div>
+    </div>
+    <div class="hg turb" onclick="turbLink()">
+      <div class="hover-turb">
+        <img src="../assets/images/house/!interactive/wind-turbines-card.png">
+      </div>
+    </div>
+    <div class="hg solars" onclick="solarLink()">
+      <div class="hover-solars">
+        <img src="../assets/images/house/!interactive/solar-panels-card.png">
+      </div>
+    </div>
+    <div class="hg therm" onclick="thermLink()">
+      <div class="hover-therm">
+        <img src="../assets/images/house/!interactive/thermal-panels-card.png">
+      </div>
+    </div>
+    <div class="hg ice" onclick="iceLink()">
+      <div class="hover-ice">
+        <img src="../assets/images/house/!interactive/ice-bear-card.png">
+      </div>
+    </div>
+    <div class="hg rain" onclick="rainLink()">
+      <div class="hover-rain">
+        <img src="../assets/images/house/!interactive/rainwater-card.png">
+      </div>
+    </div>
+  </div>
+  <p class="m-header">Information</p>
+<p class="info"> An Eco-Friendly Estate utilizes many of the best components on the market in order to make an environmentally-friendly home. The estate is the largest home offered by GreenPrint. It is large enough to house many people. This home is for wealthier individuals who desire a lot of living space and who want to make their home as eco-friendly as possible. The Eco-Friendly Estate includes solar panels, thermal panels, and a wind turbine in order to produce a sufficicent amount of electricity to power the large home. The Eco-Friendly Estate also includes a greenhouse that the can produce fresh organic crops. For heating and cooling, the home utilizes an ice powered AC unit in order to regulate temperatures throughout the large space efficiently. The home offers a large rainwater collection system for water supply. Lastly, the estate offers an electric car as the mode of transportation.
+</p>
+  <div class="footer">
+    <div class="fg links">
+      <h4>Links</h4>
+      <hr class="foot-und" id="links-u">
+      <div class="links-2">
+        <p class="links-p"><a href="index.html">Home</a><br><a href="components.html">Components</a><br><a href="packages.html">Houses</a><br><a href="contact.html">Contact Us</a></p>
+      </div>
+    </div>
+    <div class="fg Learn">
+      <h4>Learn More</h4>
+      <hr class="foot-und" id="learn-u">
+      <div class="learn-2">
+        <p class="learn-p"><a href="https://www.epa.gov/" target="_blank">EPA<br><a href="https://www.energysage.com/" target="_blank">EnergySage</a><br><a href="https://new.usgbc.org/" target="_blank">USGBC</a><br><a href="https://us.fsc.org/en-us" target="_blank">FSC</a></p>
+      </div>
+    </div>
+    <div class="fg tbd">
+      <h4>Credits</h4>
+  <hr class="foot-und" id="links-u">
+      <div class="links-2">
+        <p class="links-p"><a href="photo_credits.html">Photo Credits</a><br><a href="attributions.html">Attributions</a><br><a href="designers.html">Works Cited</a></p>
+    </div>
+  </div>
+    <div class="fg socials">
+      <div class="sg google">
+        <address>
+      <a href="contact.html"> <img class="foot-img" src="../assets/images/social_images/google.png"/></a>
+    </address>
+      </div>
+      <div class="sg insta">
+        <a href="https://www.instagram.com/greenprintecohomes/?hl=en" target="_blank"><img class="foot-img" src="../assets/images/social_images/instagram.png"></a>
+      </div>
+      <div class="sg leaf">
+        <a href="#top-scroll"><img class="foot-img" id="leaf-foot" onmouseover="toGif()" onmouseout="toImg()" src="../assets/images/social_images/leaf.png"></a>
+      </div>
+      <div class="sg twitter">
+        <a href="https://twitter.com/GreenPrint11" target="_blank"><img class="foot-img" src="../assets/images/social_images/twitter.png"></a>
+      </div>
+      <div class="sg youtube">
+        <a href="https://www.youtube.com/channel/UCQnIdHHXP8hoFjvoRMLc9hw/?guided_help_flow=5" target="_blank"><img class="foot-img" src="../assets/images/social_images/youtube.png"></a>
+      </div>
+      <div class="sg background-s"></div>
+    </div>
+    <div class="fg copy">
+      <p class="copy-p">&copy 2020 by Garrett Cox, Logan Nowlin, Daniel VanWormer, and Tyler Brunelle</p>
+    </div>
+  </div>

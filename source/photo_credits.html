@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GreenPrint</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../assets/images/graphics/leaf.png">
+  <link rel="stylesheet" type="text/css" href="../assets/styles/pc.css">
+  <script type="text/javascript" src="../assets/js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header" id="navbar">
+    <a href="index.html"><img src="../assets/images/graphics/logoo.png" alt="GreenPrint Logo" height="75" width="300"></a>
+    <div class="nb home">
+      <a href="index.html" id="nav-home">Home</a>
+      <div class="hover-home">
+      </div>
+    </div>
+    <div class="nb components">
+      <a href="components.html" id="nav-comp">Components</a>
+      <div class="hover hover-comp">
+        <div class="ch energy">
+          <p class="hover-margin">Energy</p>
+          <div class="chh hover-energy" style="float: right;">
+            <a href="solar.html">Solar Panels</a>
+            <a href="thermal.html">Thermal Panels</a>
+            <a href="wind_turb.html">Wind Turbines</a>
+          </div>
+        </div>
+        <div class="ch hvac">
+          <p>HVAC</p>
+          <div class="chh hover-hvac">
+            <a href="geothermal_pumps.html">Geothermal Pumps</a>
+            <a href="ice.html">Ice Powered AC</a>
+            <a href="insulation.html">Insulation</a>
+          </div>
+        </div>
+        <div class="ch food">
+          <p>Food/Water</p>
+          <div class="chh hover-food">
+            <a href="greenhouse.html">Greenhouse</a>
+            <a href="rain.html">Irrigation Systems</a>
+            <a href="grocery.html">Grocery Delivery</a>
+          </div>
+        </div>
+        <div class="ch transp">
+          <p>Transportation</p>
+          <div class="chh hover-transp">
+            <a href="car.html">Electric Car</a>
+            <a href="bike.html">Bicycle</a>
+            <a href="public.html">Public Transportation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nb packages">
+      <a href="packages.html" id="nav-pack">Houses<!--<p class="chevron">&#8964;</p>--></a>
+      <div class="hover hover-pack">
+        <a class="pack-hover" href="classic_suburban.html">Classic Suburban</a>
+        <a class="pack-hover" href="rural_dwelling.html">Rural Dwelling</a>
+        <a class="pack-hover" href="eco_friendly_estate.html">Eco Friendly Estate</a>
+        <a class="pack-hover" href="earthship_bioshelter.html">Earthship Bioshelter</a>
+      </div>
+    </div>
+    <div class="nb contact">
+      <a href="contact.html" id="nav-contact">Contact Us</a>
+      <div class="hover hover-cont">
+      </div>
+    </div>
+  </div>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "45px";
+  } else {
+    document.getElementById("navbar").style.top = "-80px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<div id="top-scroll">&nbsp;</div>
+<style>
+  #top-scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+</style>
+  <div class="title">
+    <h1 class="center" id="components-h">Photography Credits</h1>
+	<hr class="und">
+  </div>
+  <div class="comp-grid">
+    <div class="cgrid solar left">
+     <a href="https://pixabay.com"><img class="comp-img" alt="Pixabay" src="../assets/images/credits/pixabay.png"></a>
+	   <hr class="grid-und">
+	  <a href="pixaby.com"><p id="name">Pixabay</p></a>
+   </div>
+    <div class="cgrid geo m-left">
+      <a href="https://unsplash.com/@viazavier"><img class="comp-img" alt="Laura Ockel" src="../assets/images/credits/laura_ockel.jfif"></a>
+	   <hr class="grid-und">
+	   <a href="https://unsplash.com/@viazavier"><p id="name">Laura Ockel</p></a>
+    </div>
+    <div class="cgrid green m-right">
+      <a href="https://www.vivintsolar.com/"><img class="comp-img" alt="Vivint Solar" src="../assets/images/credits/vivint.png"></a>
+	   <hr class="grid-und">
+	   <a href="https://www.vivintsolar.com/"><p id="name">Vivint Solar</p></a>
+    </div>
+    <div class="cgrid ecar right">
+      <a href="https://unsplash.com/@bielmorro"><img class="comp-img" alt="Biel Morro" src="../assets/images/credits/biel.jfif"></a>
+	   <hr class="grid-und">
+	   <a href="https://unsplash.com/@bielmorro"><p id="name">Biel Morro</p></a>
+    </div>
+    <div class="cgrid therm left">
+      <a href="https://unsplash.com/@scienceinhd"><img class="comp-img" alt="Science in HD" src="../assets/images/credits/science.jfif"></a>
+	   <hr class="grid-und">
+	   <a href="https://unsplash.com/@scienceinhd"><p id="name">Science in HD</p></a>
+    </div>
+    <div class="cgrid ice m-left">
+      <a href="https://unsplash.com/@jxk"><img class="comp-img" alt="Jan Kopřiva" src="../assets/images/credits/jan.png"></a>
+	   <hr class="grid-und">
+	   <a href="https://unsplash.com/@jxk"><p id="name">Jan Kopřiva</p></a>
+    </div>
+    <div class="cgrid rain m-right">
+      <a href="https://unsplash.com/@rawfilm"><img class="comp-img" alt="RawFilm" src="../assets/images/credits/rawfilm.jfif"></a>
+	   <hr class="grid-und">
+	   <a href="https://unsplash.com/@rawfilm"><p id="name">RawFilm</p></a>
+    </div>
+    <div class="cgrid bike right">
+      <a href="https://unsplash.com/@karsten_wuerth"><img class="comp-img" alt="Karsten Würth" src="../assets/images/credits/karsten.jfif"></a>
+	   <hr class="grid-und">
+	   <a href="https://unsplash.com/@karsten_wuerth"><p id="name">Karsten Würth</p></a>
+    </div>
+    <div class="cgrid turb left">
+      <a href="https://unsplash.com/@ripato"><img class="comp-img" alt="Ricardo Gomez Angel" src="../assets/images/credits/ricardo.jfif"></a>
+	   <hr class="grid-und">
+	  <a href="https://unsplash.com/@ripato"> <p id="name">Ricardo Gomez Angel</p></a>
+    </div>
+    <div class="cgrid thermac m-left">
+      <a href="https://unsplash.com/@mwilson078"><img class="comp-img" alt="Michael Wilson" src="../assets/images/credits/michael.jfif"></a>
+	   <hr class="grid-und">
+	  <a href="https://unsplash.com/@mwilson078"> <p id="name">Michael Wilson</p></a>
+    </div>
+    <div class="cgrid grocery m-right">
+      <a href="https://unsplash.com/@js90"><img class="comp-img" alt="Julian Schöll" src="../assets/images/credits/julian.jpg"></a>
+	   <hr class="grid-und">
+	   <a href="https://unsplash.com/@js90"><p id="name">Julian Schöll</p></a>
+    </div>
+    <div class="cgrid pub right">
+      <a href="https://unsplash.com/@jamesbold"><img class="comp-img" alt="James Bold" src="../assets/images/credits/james.jfif"></a>
+	   <hr class="grid-und">
+	   <a href="https://unsplash.com/@jamesbold"><p id="name">James Bold</p></a>
+    </div>
+	<div class="cgrid arno left">
+		<a href="https://unsplash.com/@_entreprenerd"><img class="comp-img" alt="Arno Smit" src="../assets/images/credits/arno.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@_entreprenerd"><p id="name">Arno Smit</p></a>
+	</div>
+	<div class="cgrid anh m-left">
+		<a href="https://unsplash.com/@anhvygor"><img class="comp-img" alt="Anh Vy" src="../assets/images/credits/anh.jpg"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@anhvygor"><p id="name">Anh Vy</p></a>
+	</div>
+	<div class="cgrid jon m-right">
+		<a href="https://unsplash.com/@jonlampel"><img class="comp-img" alt="Jonathan Lampel" src="../assets/images/credits/jon.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@jonlampel"><p id="name">Jonathan Lampel</p></a>
+	</div>
+	<div class="cgrid abigail right">
+		<a href="https://unsplash.com/@shmabbss"><img class="comp-img" alt="Abigail Lynn" src="../assets/images/credits/abigail.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@shmabbss"><p id="name">Abigail Lynn</p></a>
+	</div>
+	<div class="cgrid chelsea left">
+		<a href="https://unsplash.com/@chelseadeeyo"><img class="comp-img" alt="Chelsea" src="../assets/images/credits/chelsea.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@chelseadeeyo"><p id="name">Chelsea</p></a>
+	</div>
+	<div class="cgrid jasper m-left">
+		<a href="https://unsplash.com/@jaspergarrattphotography"><img class="comp-img" alt="Jasper Garratt" src="../assets/images/credits/jasper.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@jaspergarrattphotography"><p id="name">Jasper Garratt</p></a>
+	</div>
+	<div class="cgrid jacek m-right">
+		<a href="https://unsplash.com/@dylu"><img class="comp-img" alt="Jacek Dylag" src="../assets/images/credits/jacek.jpg"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@dylu"><p id="name">Jacek Dylag</p></a>
+	</div>
+	<div class="cgrid andrew right">
+		<a href="https://unsplash.com/@studiodenley"><img class="comp-img" alt="Andrew Roberts" src="../assets/images/credits/andrew.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@studiodenley"><p id="name">Andrew Roberts</p></a>
+	</div>
+	<div class="cgrid daniel left">
+		<a href="https://unsplash.com/@danielfazio"><img class="comp-img" alt="Daniel Fazio" src="../assets/images/credits/daniel.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@danielfazio"><p id="name">Daniel Fazio</p></a>
+	</div>
+	<div class="cgrid gonz m-left">
+		<a href="https://unsplash.com/@gonz_ddl"><img class="comp-img" alt="Gonz DDL" src="../assets/images/credits/gonz.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@gonz_ddl"><p id="name">Gonz DDL</p></a>
+	</div>
+	<div class="cgrid vlad m-right">
+		<a href="https://unsplash.com/@tchompalov"><img class="comp-img" alt="Vlad Tchompalov" src="../assets/images/credits/vlad.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@tchompalov"><p id="name">Vlad Tchompalov</p></a>
+	</div>
+	<div class="cgrid rob right">
+		<a href="https://unsplash.com/@robertbye"><img class="comp-img" alt="Robert Bye" src="../assets/images/credits/rob.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@robertbye"><p id="name">Robert Bye</p></a>
+	</div>
+	<div class="cgrid zanda left">
+		<a href="http://www.zanda.photography/"><img class="comp-img" alt="Zanda Photography" src="../assets/images/credits/zanda.png"></a>
+		  <hr class="grid-und">
+		  <a href="http://www.zanda.photography/"><p id="name">Zanda Photography</p></a>
+	</div>
+	<div class="cgrid dan m-left">
+		<a href="https://unsplash.com/@d_mccullough"><img class="comp-img" alt="Daniel McCullough" src="../assets/images/credits/dan.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@d_mccullough"><p id="name">Daniel McCullough</p></a>
+	</div>
+	<div class="cgrid thomas m-right">
+		<a href="https://unsplash.com/@thmsvrbrggn"><img class="comp-img" alt="Thomas Verbruggen" src="../assets/images/credits/thomas.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@thmsvrbrggn"><p id="name">Thomas Verbruggen</p></a>
+	</div>
+	<div class="cgrid julian right">
+		<a href="https://www.flickr.com/photos/julianb/"><img class="comp-img" alt="Julian" src="../assets/images/credits/np.png"></a>
+		  <hr class="grid-und">
+		  <a href="https://www.flickr.com/photos/julianb/"><p id="name">Julian</p></a>
+	</div>
+	<div class="cgrid fikri left">
+		<a href="https://unsplash.com/@fikrirasyid"><img class="comp-img" alt="Fikri Rasyid" src="../assets/images/credits/fikri.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@fikrirasyid"><p id="name">Fikri Rasyid</p></a>
+	</div>
+	<div class="cgrid juan m-left">
+		<a href="https://unsplash.com/@juanencalada"><img class="comp-img" alt="Juan Encalada" src="../assets/images/credits/juan.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@juanencalada"><p id="name">Juan Encalada</p></a>
+	</div>
+	<div class="cgrid jakob m-right">
+		<a href="https://unsplash.com/@foodiesfeed"><img class="comp-img" alt="Jakub Kapusnak" src="../assets/images/credits/jakub.png"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@foodiesfeed"><p id="name">Jakub Kapusnak</p></a>
+	</div>
+	<div class="cgrid nat right">
+		<a href="https://unsplash.com/@nattha"><img class="comp-img" alt="Natthakit Khamso" src="../assets/images/credits/nat.jfif"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@nattha"><p id="name">Natthakit Khamso</p></a>
+	</div>
+	<div class="cgrid tomas left">
+		<a href="https://unsplash.com/@tomastuma"><img class="comp-img" alt="Tomas Tuma" src="../assets/images/credits/tomas.jpg"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@tomastuma"><p id="name">Tomas Tuma</p></a>
+	</div>
+	<div class="cgrid alexey m-left">
+		<a href="https://unsplash.com/@tomastuma"><img class="comp-img" alt="Alexey Ruban" src="../assets/images/credits/alexey.png"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@tomastuma"><p id="name">Alexey Ruban</p></a>
+	</div>
+	<div class="cgrid brian m-right">
+		<a href="https://unsplash.com/@mcmre"><img class="comp-img" alt="Brian McMahon" src="../assets/images/credits/brian.jpg"></a>
+		  <hr class="grid-und">
+		  <a href="https://unsplash.com/@mcmre"><p id="name">Brian McMahon</p></a>
+	</div>
+  </div>
+  <div class="footer">
+      <div class="fg links">
+        <h4>Links</h4>
+        <hr class="foot-und" id="links-u">
+        <div class="links-2">
+          <p class="links-p"><a href="index.html">Home</a><br><a href="components.html">Components</a><br><a href="packages.html">Packages</a><br><a href="contact.html">Contact Us</a></p>
+        </div>
+      </div>
+      <div class="fg Learn">
+        <h4>Learn More</h4>
+        <hr class="foot-und" id="learn-u">
+        <div class="learn-2">
+          <p class="learn-p"><a href="https://www.epa.gov/" target="_blank">EPA<br><a href="https://www.energysage.com/" target="_blank">EnergySage</a><br><a href="https://new.usgbc.org/" target="_blank">USGBC</a><br><a href="https://us.fsc.org/en-us" target="_blank">FSC</a></p>
+        </div>
+      </div>
+      <div class="fg tbd">
+        <h4>Credits</h4>
+		<hr class="foot-und" id="links-u">
+        <div class="links-2">
+          <p class="links-p"><a href="photo_credits.html">Photo Credits</a><br><a href="attributions.html">Attributions</a></p>
+      </div>
+	  </div>
+      <div class="fg socials">
+        <div class="sg google">
+          <address>
+        <a href="contact.html"> <img class="foot-img" src="../assets/images/social_images/google.png"/></a>
+      </address>
+        </div>
+        <div class="sg insta">
+          <a href="https://www.instagram.com/greenprintecohomes/?hl=en" target="_blank"><img class="foot-img" src="../assets/images/social_images/instagram.png"></a>
+        </div>
+        <div class="sg leaf">
+          <a href="#top-scroll"><img class="foot-img" id="leaf-foot" onmouseover="toGif()" onmouseout="toImg()" src="../assets/images/social_images/leaf.png"></a>
+        </div>
+        <div class="sg twitter">
+          <a href="https://twitter.com/GreenPrint11" target="_blank"><img class="foot-img" src="../assets/images/social_images/twitter.png"></a>
+        </div>
+        <div class="sg youtube">
+          <a href="https://www.youtube.com/channel/UCQnIdHHXP8hoFjvoRMLc9hw/?guided_help_flow=5" target="_blank"><img class="foot-img" src="../assets/images/social_images/youtube.png"></a>
+        </div>
+        <div class="sg background-s"></div>
+      </div>
+      <div class="fg copy">
+        <p class="copy-p">&copy 2020 by Garrett Cox, Logan Nowlin, Daniel VanWormer, and Tyler Brunelle</p>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GreenPrint</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../assets/images/graphics/leaf.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="../assets/styles/style.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="../assets/js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header" id="navbar">
+    <a href="index.html"><img src="../assets/images/graphics/logoo.png" alt="GreenPrint Logo" height="75" width="300"></a>
+    <div class="mobile-nav" onclick="mobileNav()">
+      <p>test</p>
+      <div id="m-nav-hover" class="m-nav-hover">
+        <a href="index.html">Home</a>
+        <a href="components.html">Components</a>
+        <a href="packages.html">Houses</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+    <div class="desk-nav">
+    <div class="nb home">
+      <a href="index.html" id="nav-home">Home</a>
+      <div class="hover-home">
+      </div>
+    </div>
+    <div class="nb components">
+      <a href="components.html" id="nav-comp">Components</a>
+      <div class="hover hover-comp">
+        <div class="ch energy">
+          <p class="hover-margin">Energy</p>
+          <div class="chh hover-energy" style="float: right;">
+            <a href="solar.html">Solar Panels</a>
+            <a href="thermal.html">Thermal Panels</a>
+            <a href="wind_turb.html">Wind Turbines</a>
+          </div>
+        </div>
+        <div class="ch hvac">
+          <p>HVAC</p>
+          <div class="chh hover-hvac">
+            <a href="geothermal_pumps.html">Geothermal Pumps</a>
+            <a href="ice.html">Ice Powered AC</a>
+            <a href="insulation.html">Insulation</a>
+          </div>
+        </div>
+        <div class="ch food">
+          <p>Food/Water</p>
+          <div class="chh hover-food">
+            <a href="greenhouse.html">Greenhouse</a>
+            <a href="rain.html">Irrigation Systems</a>
+            <a href="grocery.html">Grocery Delivery</a>
+          </div>
+        </div>
+        <div class="ch transp">
+          <p>Transportation</p>
+          <div class="chh hover-transp">
+            <a href="car.html">Electric Car</a>
+            <a href="bike.html">Bicycle</a>
+            <a href="public.html">Public Transportation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nb packages">
+      <a href="packages.html" id="nav-pack">Houses<!--<p class="chevron">&#8964;</p>--></a>
+      <div class="hover hover-pack">
+        <a class="pack-hover" href="classic_suburban.html">Classic Suburban</a>
+        <a class="pack-hover" href="rural_dwelling.html">Rural Dwelling</a>
+        <a class="pack-hover" href="eco_friendly_estate.html">Eco Friendly Estate</a>
+        <a class="pack-hover" href="earthship_bioshelter.html">Earthship Bioshelter</a>
+      </div>
+    </div>
+    <div class="nb contact">
+      <a href="contact.html" id="nav-contact">Contact Us</a>
+      <div class="hover hover-cont">
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-80px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<div id="top-scroll">&nbsp</div>
+  <div class="big-words">
+    <p>Building The Way<br> To A Greener <br>Future.</p>
+  </div>
+  <div class="arrow">
+    <img class="dumb-arrow" src="../assets/images/graphics/animation/arrow.gif">
+  </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="../assets/images/carousel_images/solar_panels.png">
+      </div>
+      <div class="item">
+        <img src="../assets/images/carousel_images/snowy_solars.png">
+      </div>
+      <div class="item">
+        <img src="../assets/images/carousel_images/wind_turbines.png">
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container">
+  <main>
+    <h3>Find Your Bio-Friendly Home</h3>
+      <div class="find-home">
+          <div class="homes home1-1 top-left">
+            <img src="../assets/images/suburban.jpg" width=100% height=auto class="home-img">
+          </div>
+          <div class="homes home1-2 top-right">
+            <a href="classic_suburban.html"><p class="home-title">Classic Suburban</p></a>
+            <a href="classic_suburban.html"><p class="price">$385,000</p></a>
+          </div>
+          <div class="homes home1-3 bottom">
+            <p class="home-des">This simple, no-nonsense house is perfect for your typical neighborhood. It blends right in to the average suburban neighborhood. It's perfect for those who have limited space to work with and / or a strict HOA.
+          </div>
+          <div class="homes home2-1 top-left">
+            <img src="../assets/images/rural2.jpg" width=100% height=auto class="home-img">
+          </div>
+          <div class="homes home2-2 top-right">
+            <a href="rural_dwelling.html"><p class="home-title">Rural Dwelling</p></a>
+            <a href="rural_dwelling.html"><p class="price">$168,000</p></a>
+          </div>
+          <div class="homes home2-3 bottom">
+            <p class="home-des">If one is going to live the green lifestyle, why not live among nature? This rural dwelling is superb when nesteled in the backwoods among the wilderness.  </p>
+          </div>
+          <div class="homes home3-1 top-left">
+            <img src="../assets/images/mansion.jpg" width=100% height=auto class="home-img">
+          </div>
+          <div class="homes home3-2 top-right">
+            <a href="eco_friendly_estate.html"><p class="home-title">Eco-Friendly Estate</p></a>
+            <a href="eco_friendly_estate.html"><p class="price">$1,160,000</p></a>
+          </div>
+          <div class="homes home3-3 bottom">
+            <p class="home-des">This is a eco-friendly estate is perfect for those who want to live in luxury, while still being eco-friendly. This sprawling estate fits perfect in both the rolling country sides and the upscale neighborhoods of the major cities.</p>
+          </div>
+          <div class="homes home4-1 top-left">
+            <img src="../assets/images/earthship.jpg" width=100% height=auto class="home-img">
+          </div>
+          <div class="homes home4-2 top-right">
+            <a href="earthship_bioshelter.html"><p class="home-title">Earthship Bioshelter</p></a>
+            <a href="eartship_bioshelter.html"><p class="price">$540,000</p></a>
+          </div>
+          <div class="homes home4-3 bottom">
+            <p class="home-des">The Earthship Bioshelter is just about as eco-friendly as you can get. Every component of this house is designed specificially for reducing its impact on the environment.</p>
+          </div>
+      </div>
+    <h3 id="why-head">Why Bio Friendly?<h3>
+    <hr>
+    <h3 class="left" id="problem-head">The Problem At Hand:</h4>
+    <div class="problem">
+      <div class="problems pa">
+        <p>Every year 6,870 million metric tons of greenhouse gasses are released into the atmosphere. These greenhouse gasses are fueling the epidemic known as “global warming”. The effects of these emissions can be seen across the United States. California is dealing with carcinogenic smog throughout their urban communities, and raging wildfires in the rural areas. Indiana is addressing a problem concerning excessive trash production. Texas is emitting copious amounts of carbon dioxide into the atmosphere. Wyoming is burning through energy. Kansas, Maryland, and Mississippi are experiencing clean water crises. Louisiana is quickly losing its bayous due to global warming. These are just some examples of how the issue is spread across the country, and not just in concentrated areas. Most of the side effects of global warming can be reduced with simple changes, but to fully eradicate the epidemic, changes need to be made to everyday living. The first place environmentally friendly changes need to be implemented is in households. This is because people spend around 90% of time indoors, and a large portion of this time is spent in one's own house. For the health of the planet, all homes that are currently being built should be required to have some of these bio-friendly qualities.</p>
+      </div>
+      <div class="problems pb">
+        <img src="../assets/images/pollution.jpg" alt="Image of Pollution" class="pollution-img">
+      </div>
+    </div>
+    <!--<div class="home-graphics">
+      <div class="hgrid hga">
+        <a href="#e-head"><img src="../assets/illustrations/earth_filtered.png" class="hg-img"></a>
+        <a href="#e-head"><h4>Environmental<br>Impact</h4></a>
+        <p>Reduced Air Pollution,<br>and Renewable Resources</p>
+      </div>
+      <div class="hgrid hgb">
+        <a href="#fin-head"><img src="../assets/illustrations/money_filtered.png" class="hg-img"></a>
+        <a href="#fin-head"><h4>Financial<br>Benefits</h4></a>
+        <p>Energy, Food,<br>and Transportation<br>Savings</p>
+      </div>
+      <div class="hgrid hgc">
+        <a href="#he-head"><img src="../assets/illustrations/heartfiltered.png" class-"hg-img" id="stupid-heart"></a>
+        <a href="#he-head"><h4>Health<br>Benefits</h4></a>
+        <p>Reduced Allergies,<br>Asthma,<br>and Disease. </p>
+      </div>
+    </div>-->
+    <div class="imp-c eimpact-c">
+    <h3 class="left" id="e-head">Environmental Impact</h3>
+    <div class="eimpact">
+      <div class="ei eia">
+        <p class="pspan">A bio-friendly home is designed with the environment in mind, be it through reducing carbon emissions, saving natural resources, or producing organic food, a bio-friendly home caters to the environment. By harnessing the power of thr sun, wind, and occasionally water to power a home, one can reduce the necessity of coal and natural gas in the process of everyday life, and through this method, begin reducing dangerous carbon emissions. The reduction of carbon emissions is critical to the health of our planet and the survival of our species. Green homes may simply be helpful now, but soon they will become a necessity in keeping our planet alive.</p>
+      </div>
+      <div class="ei eib">
+        <img src="../assets/images/graphics/animation/wind_turbines.gif" alt="Wind Turbines" class="main-img">
+      </div>
+      <div class="ei eic">
+        <img src="../assets/images/graphics/animation/smokestack.gif" alt="Smoke Stacks" class="main-img" class="img-top">
+      </div>
+    </div>
+   </div>
+   <div class="imp-c finben-c">
+    <h3 class="right" id="fin-head">Financial Benefits</h3>
+    <div class="finben">
+      <div class="fb fba">
+        <img src="../assets/images/graphics/animation/lamp.gif" alt="Lamp Gif" class="fin-img">
+      </div>
+      <div id="finben-words" class="fb fbb">
+        <p>Having a bio-friendly home is all but guaranteed to save the consumer money. Despite an initially high start-up cost, the reduced cost of many necessities in one's home is bound to make the home-owner’s start up money back and then some. The various components that are designed to benefit the environment all work together to save money. Solar panelswill almost completely negate one's electric bill, while geothermal pumps will save money over time. On top of that, if the consumer opts to install their own greenhouse, and grow their own food, they will save money on their trips to the grocery store. Learn more specifics about savings and start-up costs in our <a href="components.html">Components</a> page.
+        </p>
+      </div>
+      <div class="fb fbc">
+        <img src="../assets/images/graphics/animation/dollar_bills.gif" alt="Dollar Bills" class="fin-img">
+      </div>
+    </div>
+  </div>
+  <div class="imp-c heben-c">
+    <h3 class="right" id="he-head">Health Benefits</h3>
+    <div class="heben">
+      <div class="hb hba">
+        <p>One of the biggest advantages to having an environmentally-friendly home are the health benefits to the owner. Green homes are made out of natural matierals rather than chemically treated ones. Reducing exposure to volatile organic compounds reduces your likely-hood of having health complications in the future. In addition, many eco-homes are designed to bring in more sunlight than traditional home designs. When someone is exposed to sunlight throughout the day, the person's brain releases dopamine. Dopamine is known to make people happier, and prolong their lives. Furthermore, the organic foods grown in a greenhouse will reduce your chemical intake compared to store-bought vegetables. You can learn more about the specific benefits of each aspect of a eco-friendly home in our <a href="components.html">Components</a> page.</p>
+      </div>
+      <div class="hb hbb">
+        <img src="../assets/images/graphics/animation/sun.gif" alt="Sun" class="hb-img">
+      </div>
+      <div class="hb hbc">
+        <img src="../assets/images/graphics/animation/no_poison.gif" alt="No Poison" class="hb-img" id="no-poison">
+      </div>
+    </div>
+    </div>
+  </main>
+    <h3 class="center" id="meet-head">Meet The Team</h3>
+
+    <div class="meet-team">
+      <div class="tg garrett">
+        <img src="../assets/images/people/garrett.jpg" alt="Garrett Cox Image" class="m-img gc">
+        <hr class="m-und">
+        <p class="m-name">Garrett <br> Cox</p>
+		<p class="title">Coder</p>
+        <!-- <p class="m-des">Backend Developer</p> -->
+      </div>
+      <div class="tg tyler">
+        <img src="../assets/images/people/1.jpg" alt="Tyler Brunelle Image" class="m-img tb">
+        <hr class="m-und">
+        <p class="m-name">Tyler Brunelle</p>
+		<p class="title">Graphic Designer</p>
+        <!-- <p class="m-des">UI Designer</p> -->
+      </div>
+      <div class="tg logan">
+        <img src="../assets/images/people/logan.jpg" alt="Logan Nowlin Image" class="m-img ln">
+        <hr class="m-und">
+        <p class="m-name">Logan Nowlin</p>
+		<p class="title">Intern</p>
+      </div>
+      <div class="tg dan">
+        <img src="../assets/images/people/daniel.jpg" alt="Daniel VanWormer Image" class="m-img ln">
+        <hr class="m-und">
+        <p class="m-name">Daniel VanWormer</p>
+		<p class="title">Asset Designer</p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="fg links">
+        <h4>Links</h4>
+        <hr class="foot-und" id="links-u">
+        <div class="links-2">
+          <p class="links-p"><a href="index.html">Home</a><br><a href="components.html">Components</a><br><a href="packages.html">Houses</a><br><a href="contact.html">Contact Us</a></p>
+        </div>
+      </div>
+      <div class="fg Learn">
+        <h4>Learn More</h4>
+        <hr class="foot-und" id="learn-u">
+        <div class="learn-2">
+          <p class="learn-p"><a href="https://www.epa.gov/" target="_blank">EPA<br><a href="https://www.energysage.com/" target="_blank">EnergySage</a><br><a href="https://new.usgbc.org/" target="_blank">USGBC</a><br><a href="https://us.fsc.org/en-us" target="_blank">FSC</a></p>
+        </div>
+      </div>
+      <div class="fg tbd">
+        <h4>Credits</h4>
+		<hr class="foot-und" id="links-u">
+        <div class="links-2">
+          <p class="links-p"><a href="photo_credits.html">Photo Credits</a><br><a href="attributions.html">Attributions</a><br><a href="works_cited.html">Works Cited</a></p>
+      </div>
+	  </div>
+      <div class="fg socials">
+        <div class="sg google">
+          <address>
+        <a href="contact.html"> <img class="foot-img" src="../assets/images/social_images/google.png"/></a>
+      </address>
+        </div>
+        <div class="sg insta">
+          <a href="https://www.instagram.com/greenprintecohomes/?hl=en" target="_blank"><img class="foot-img" src="../assets/images/social_images/instagram.png"></a>
+        </div>
+        <div id="leaf-div" class="sg leaf">
+          <a href="#top-scroll"><img id="leaf-foot" onmouseover="toGif()" onmouseout="toImg()" class="foot-img" src="../assets/images/social_images/leaf.png"></a>
+        </div>
+        <div class="sg twitter">
+          <a href="https://twitter.com/GreenPrint11" target="_blank"><img class="foot-img" src="../assets/images/social_images/twitter.png"></a>
+        </div>
+        <div class="sg youtube">
+          <a href="https://www.youtube.com/channel/UCQnIdHHXP8hoFjvoRMLc9hw/?guided_help_flow=5" target="_blank"><img class="foot-img" src="../assets/images/social_images/youtube.png"></a>
+        </div>
+        <div class="sg background-s"></div>
+      </div>
+      <div class="fg copy">
+        <p class="copy-p">&copy 2020 by Garrett Cox, Logan Nowlin, Daniel VanWormer, and Tyler Brunelle</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

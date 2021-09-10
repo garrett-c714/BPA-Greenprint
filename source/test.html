@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GreenPrint</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../assets/images/graphics/leaf.png">
+  <link rel="stylesheet" type="text/css" href="../assets/styles/test.css">
+  <link rel="stylesheet" type="text/css" href="../assets/styles/contact.css">
+</head>
+<body>
+  <div class="header" id="navbar">
+    <a href="index.html"><img src="../assets/images/graphics/logoo.png" alt="GreenPrint Logo" height="75" width="300"></a>
+	<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+    <a href="index.html" id="nav-home">Home</a>
+    <a href="components.html">Components</a> <!--Remember to change this back-->
+    <a href="packages.html">Packages</a>
+    <a href="contact.html" class="nav-contact">Contact Us</a>
+  </div>
+  <script>
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+if (prevScrollpos > currentScrollPos) {
+  document.getElementById("navbar").style.top = "0px";
+} else {
+  document.getElementById("navbar").style.top = "-80px";
+}
+prevScrollpos = currentScrollPos;
+}
+  </script>
+
+  <div class="title">
+  </div>
+  <img src="../assets/images/blueprint2.jpg">
+  <h1 class="help">Need More Help?</h1>
+  <div class="arrow">
+    <img src="../assets/images/graphics/animation/arrow.gif">
+  </div>
+  <h2>Contact Us!</h2>
+  <p class="info"> greenprintecohouses@gmail.com</p>
+  <p class="info">(614)-813-3392</p>
+  <p class="info"> 7800 Refugee Road, Pickerington, Ohio</p>
+  <h2 class="contact"> Leave Us a Comment</h2>
+  <img src="../assets/images/graphics/animation/phone.gif" class="gif" id="phone">
+  <img src="../assets/images/graphics/animation/mail.gif" class="gif">
+ <div class="container">
+  <form>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <!--label for="country">Subject</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select-->
+<label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your email..">
+
+    <label for="subject">Body</label>
+    <textarea id="country" name="body" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+  <div class="footer">
+      <div class="fg links">
+        <h4>Links</h4>
+        <hr class="foot-und" id="links-u">
+        <div class="links-2">
+          <p class="links-p"><a href="index.html">Home</a><br><a href="components.html">Components</a><br><a href="packages.html">Packages</a><br><a href="contact.html">Contact Us</a></p>
+        </div>
+      </div>
+      <div class="fg Learn">
+        <h4>Learn More</h4>
+        <hr class="foot-und" id="learn-u">
+        <div class="learn-2">
+          <p class="learn-p"><a href="https://www.epa.gov/" target="_blank">EPA<br><a href="https://www.energysage.com/" target="_blank">EnergySage</a><br><a href="https://new.usgbc.org/" target="_blank">USGBC</a><br><a href="https://us.fsc.org/en-us" target="_blank">FSC</a></p>
+        </div>
+      </div>
+      <div class="fg tbd">
+        <h4>Credits</h4>
+		<hr class="foot-und" id="links-u">
+        <div class="links-2">
+          <p class="links-p"><a href="photo_credits.html">Photo Credits</a><br><a href="attributions.html">Attributions</a><br><a href="designers.html">Designers</a></p>
+      </div>
+	  </div>
+      <div class="fg socials">
+        <div class="sg google">
+          <address>
+        <a href="contact.html"> <img class="foot-img" src="../assets/images/social_images/google.png"/></a>
+      </address>
+        </div>
+        <div class="sg insta">
+          <a href="https://www.instagram.com/greenprintecohomes/?hl=en" target="_blank"><img class="foot-img" src="../assets/images/social_images/instagram.png"></a>
+        </div>
+        <div class="sg leaf">
+          <a href="index.html"><img class="foot-img" src="../assets/images/social_images/leaf.png"></a>
+        </div>
+        <div class="sg twitter">
+          <a href="https://twitter.com/GreenPrint11" target="_blank"><img class="foot-img" src="../assets/images/social_images/twitter.png"></a>
+        </div>
+        <div class="sg youtube">
+          <a href="https://www.youtube.com/channel/UCQnIdHHXP8hoFjvoRMLc9hw/?guided_help_flow=5" target="_blank"><img class="foot-img" src="../assets/images/social_images/youtube.png"></a>
+        </div>
+        <div class="sg background-s"></div>
+      </div>
+      <div class="fg copy">
+        <p class="copy-p">&copy 2020 by Garrett Cox, Logan Nowlin, Daniel VanWormer, and Tyler Brunelle</p>
+      </div>
+    </div>
+</body>
+</html>
